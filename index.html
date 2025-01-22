@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">To-Do List</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button id="addTask" class="btn btn-primary">Add Task</button>
+    </div>
+    <div class="filter-container">
+      <button id="filterAll" class="btn btn-secondary active">All</button>
+      <button id="filterCompleted" class="btn btn-secondary">Completed</button>
+      <button id="filterIncomplete" class="btn btn-secondary">Incomplete</button>
+    </div>
+    <ul id="taskList" class="task-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
